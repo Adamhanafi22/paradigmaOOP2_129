@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "multipewarisan", "multipewa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "problemmultiwaris", "problemmultiwaris\problemmultiwaris.vcxproj", "{382500AC-15E7-459E-8357-1930F99A5332}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "solveMultiwaris", "solveMultiwaris\solveMultiwaris.vcxproj", "{6B7D33CD-C2C9-4DAE-A838-665EAEF92F76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{382500AC-15E7-459E-8357-1930F99A5332}.Release|x64.Build.0 = Release|x64
 		{382500AC-15E7-459E-8357-1930F99A5332}.Release|x86.ActiveCfg = Release|Win32
 		{382500AC-15E7-459E-8357-1930F99A5332}.Release|x86.Build.0 = Release|Win32
+		{6B7D33CD-C2C9-4DAE-A838-665EAEF92F76}.Debug|x64.ActiveCfg = Debug|x64
+		{6B7D33CD-C2C9-4DAE-A838-665EAEF92F76}.Debug|x64.Build.0 = Debug|x64
+		{6B7D33CD-C2C9-4DAE-A838-665EAEF92F76}.Debug|x86.ActiveCfg = Debug|Win32
+		{6B7D33CD-C2C9-4DAE-A838-665EAEF92F76}.Debug|x86.Build.0 = Debug|Win32
+		{6B7D33CD-C2C9-4DAE-A838-665EAEF92F76}.Release|x64.ActiveCfg = Release|x64
+		{6B7D33CD-C2C9-4DAE-A838-665EAEF92F76}.Release|x64.Build.0 = Release|x64
+		{6B7D33CD-C2C9-4DAE-A838-665EAEF92F76}.Release|x86.ActiveCfg = Release|Win32
+		{6B7D33CD-C2C9-4DAE-A838-665EAEF92F76}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
