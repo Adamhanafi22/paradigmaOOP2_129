@@ -46,5 +46,5 @@ public:
 int main() {
 	budi a(12);
 
-	return0
+	return 0;
 }
