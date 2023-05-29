@@ -46,7 +46,13 @@ public:
 
 	}
 	string perkenalan() {
-		return "hallo, nama sata" + nama + "dengan jenis kelamin" + jeniskelamin;
+		return "hallo, nama sata" + nama + "dengan jenis kelamin" + jeniskelamin + "dari sekolah" + sekolah + "\n\n";
 	}
 
 };
+
+int main() {
+	pelajar andi("andi laksono", "laki-laki", "belajarcpp");
+	cout << andi.perkenalan();
+	return 0;
+}
