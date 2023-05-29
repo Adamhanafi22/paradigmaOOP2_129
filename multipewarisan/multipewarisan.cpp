@@ -29,3 +29,24 @@ public:
 		cout << "manusia dihapus\n" << endl;
 	}
 };
+
+class pelajar : private manusia, public orang {
+public:
+	string sekolah;
+
+	pelajar(string pNama, string pjeniskelamin, string pSekolah) :
+		orang(pNama),
+		manusia(pjeniskelamin),
+		sekolah(pSekolah) {
+		cout << "pelajar dibuat\n" << endl;
+
+	}
+	~pelajar() {
+		cout << "pelajar dihapus\n" << endl;
+
+	}
+	string perkenalan() {
+		return "hallo, nama sata" + nama + "dengan jenis kelamin" + jeniskelamin;
+	}
+
+};
