@@ -13,6 +13,6 @@ public:
 	}
 	~orang() {
 		cout << "orang dihapus\n" << endl;
-	}
+	} 
 	
 };
